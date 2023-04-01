@@ -1,11 +1,133 @@
 /*
 Theme Name: Simple Site
-Автор: MI
+Author:  MI
 Description: The 2020 simple theme for WordPress.
 Version: 1.0
-Ліцензія: GNU General Public License v2 or later
+License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: black
 Text Domain: simple-site
-Ця тема є licensed під GPL.
+
 */
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #444;
+  font-family: Verdana, Arial, sans-serif;
+}
+a {
+  color: #dd7722;
+  text-decoration: none;
+}
+a:hover {
+  color: #ffbb11;
+}
+img {
+  float: left;
+  padding: 0 20px 20px 0;
+}
+li {
+  list-style: none;
+}
+.entry-content {
+  padding: 20px 20px 20px 0;
+}
+.wrapper {
+  background-color: #eee;
+  margin: 20px auto;
+  width: 960px;
+  min-height: 250px;
+  height: 100%;
+}
+.main {
+  background-color: #333;
+  margin: 0 auto;
+  width: 960px;
+  height: 100%;
+}
+.site-title,
+.site-description {
+  text-align: left;
+  margin: 10px 20px;
+}
+.site-title {
+  padding-top: 20px;
+  font-size: 3em;
+}
+.site-description {
+  margin-bottom: 20px;
+  font-size: 1.5em;
+}
+.search-box {
+  padding-top: 10px;
+  margin: 20px;
+}
+#sitehead {
+  background-color: #111;
+  color: #ddd;
+  margin: 0 auto;
+  width: 960px;
+  height: 140px;
+}
+#sitehead a {
+  color: #fff;
+}
+#sitehead a:hover {
+  color: #bbb;
+}
+.sidebar {
+  color: #aaa;
+  display: inline-block;
+  float: left;
+  width: 300px;
+  padding: 20px 0;
+  height: 100%;
+}
+.top-menu {
+  margin-top: 20px;
+  list-style: none;
+}
+.site-footer {
+  background-color: #000;
+  display: block;
+  padding: 20px 0;
+  text-align: center;
+  width: 960px;
+  margin: 0 auto;
+}
+.site-info {
+  font-size: 1.2em;
+}
+.site-content {
+  background-color: #eee;
+  border-left: solid 1px #ddd;
+  margin-left: 300px;
+  padding: 40px;
+  min-height: 300px;
+  height: 100%;
+}
+.clear {
+  clear: both;
+}
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+.nav-previous {
+  float: left;
+  padding: 10px 0;
+  width: 50%;
+}
+.nav-next {
+  float: right;
+  padding: 10px 0;
+  text-align: right;
+  width: 50%;
+}
+.button,
+.input {
+  background-color: #ccc;
+  border: none;
+}
