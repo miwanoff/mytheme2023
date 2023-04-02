@@ -12,6 +12,8 @@
         <h1 class="entry-title">
             <a href="<?php the_permalink();?>" rel="bookmark"><?php echo get_the_title(); ?></a>
         </h1>
+        <a href="<?php the_permalink();?> " title=" <?php the_title();?> ">
+            <?php the_post_thumbnail('thumbnail');?></a>
         <?php endif;?>
         <!-- Виведення рубрик та тегів -->
         <?php echo get_the_category_list(); ?>
