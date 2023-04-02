@@ -6,6 +6,10 @@
             <?php echo 'KIT 2020'; ?>
         </a>
     </div><!-- .site-info -->
+    <div class="my-new-sidebar">
+        <?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar("Sidebar Area 1")): ?>
+        <?php endif;?>
+    </div>
     <?php wp_footer();?>
 </footer><!-- #colophon -->
 </div><!-- #page -->
