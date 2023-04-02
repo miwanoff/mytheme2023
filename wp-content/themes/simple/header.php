@@ -30,4 +30,8 @@
                     rel="home"><?php bloginfo('name');?></a></h1>
             <div id="site-description" class="site-description"><?php bloginfo('description');?></div>
         </header><!-- #sitehead -->
+        <div class="my-new-sidebar">
+            <?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar("Sidebar Area")): ?>
+            <?php endif;?>
+        </div>
         <div class="main">
