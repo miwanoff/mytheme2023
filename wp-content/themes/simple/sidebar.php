@@ -5,4 +5,7 @@
         </div>
     </div>
     <!-- Меню -->
+    <nav class="main-navigation">
+        <?php wp_nav_menu(array('menu' => 'top-menu', 'menu_class' => 'top-menu'));?>
+    </nav>
 </aside>
